@@ -12,6 +12,7 @@ import androidx.annotation.RequiresApi
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.drawerlayout.widget.DrawerLayout
+import com.appsinthesky.bluetoothtutorial.BT
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
@@ -29,7 +30,7 @@ class MainActivity : AppCompatActivity(){
         setContentView(R.layout.activity_main)
 
         button.setOnClickListener{
-            val intent = Intent(this,SecondActivity::class.java)
+            val intent = Intent(this,BT::class.java)
             startActivity(intent)
 
         }

@@ -66,7 +66,7 @@ class ThirdActivity : AppCompatActivity() {
 
 
 
-            val intent = Intent(this, SecondActivity::class.java)
+            val intent = Intent(this, Second_Temp::class.java)
             intent.putExtra("Name",name)
             intent.putExtra("Note",note)
             startActivity(intent)
